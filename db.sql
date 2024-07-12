@@ -101,3 +101,5 @@ CREATE TABLE voertuigen (
                             api_gekentekende_voertuigen_voertuigklasse VARCHAR(255) NULL,
                             PRIMARY KEY (`kenteken`)
 );
+
+ALTER TABLE voertuigen CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

@@ -31,7 +31,7 @@ func init() {
 
 // opens a connection to the MySQL database
 func connectToDB() (*sql.DB, error) {
-	db, err := sql.Open("mysql", fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", dbUser, dbPass, dbHost, dbPort, dbName))
+	db, err := sql.Open("mysql", fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&collation=utf8mb4_unicode_ci", dbUser, dbPass, dbHost, dbPort, dbName))
 	if err != nil {
 		return nil, err
 	}
