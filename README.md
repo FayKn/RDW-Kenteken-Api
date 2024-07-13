@@ -8,7 +8,7 @@ Volle CSV te downloaden van: https://opendata.rdw.nl/resource/m9d7-ebf2.csv?$lim
 
 TODO (non-exhaustive):
 - [ ] CSV filename uit .env halen
-- [ ] Automatisch downloaden van de CSV van de RDW
+- [ ] Automatisch downloaden van de CSV van de RDW en inlezen in de database (oude table renamen en nieuwe table aanmaken)
 - [X] Optimaliseren DMV batch inserts en chunking van bestand
 - [ ] API
-- [ ] evt. recalls checken
+- [ ] evt. recalls op auto's checken
