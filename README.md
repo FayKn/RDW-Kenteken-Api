@@ -1,6 +1,6 @@
 # Kenteken checker
 
-
+Momentele staat: een redelijk snelle CSV parser en inserter
 
 CSV's van de RDW zijn te vinden op: https://opendata.rdw.nl/Voertuigen/Open-Data-RDW-Gekentekende_voertuigen/m9d7-ebf2
 
